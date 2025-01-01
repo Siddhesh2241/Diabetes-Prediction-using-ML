@@ -40,7 +40,19 @@ Random Forest: An ensemble method that builds multiple decision trees and merges
 The models were evaluated using the following metrics:
 
 ## Accuracy: 
-The proportion of correct predictions.
+This section provides an analysis of the various models based on their training and testing accuracies.
+
+| Algorithm               | Training Accuracy | Testing Accuracy |
+|-------------------------|-------------------|------------------|
+| Decision Tree           | 1.0               | 0.70             |
+| K-Nearest Neighbors     | 0.87              | 0.73             |
+| Logistic Regression     | 0.74              | 0.77             |
+| SVM                     | 0.77              | 0.74             |
+| Random Forest           | 1.0               | 0.74             |
+| Bagging Classifier      | 1.0               | 0.75             |
+| Boosting Classifier     | 1.0               | 0.70             |
+| Voting Classifier       | 1.0               | 0.73             |
+
 ## Confusion Matrix: 
 A matrix to visualize the performance of the classification model.
 ## Precision, Recall, F1-Score: 

@@ -53,10 +53,13 @@ This section provides an analysis of the various models based on their training 
 | Boosting Classifier     | 1.0               | 0.70             |
 | Voting Classifier       | 1.0               | 0.73             |
 
-## Confusion Matrix: 
-A matrix to visualize the performance of the classification model.
-## Precision, Recall, F1-Score: 
-These metrics help to understand the model’s ability to classify diabetic and non-diabetic patients.
+## Overall Conclusion
 
-## Results
-Each algorithm was tested, and the performance metrics were compared. The Random Forest classifier performed best in terms of accuracy, followed by the Support Vector Machine and KNN.
+- **Overfitting**: Several models (Decision Tree, Random Forest, Bagging Classifier, Boosting Classifier, and Voting Classifier) show signs of overfitting with perfect training accuracies but lower testing accuracies.
+ 
+- **Best Generalization**: Logistic Regression and SVM show a good balance between training and testing performance, indicating better generalization.
+
+- **K-Nearest Neighbors** also performs relatively well with moderate training and testing accuracy, suggesting it could be a reliable model for this dataset.
+
+If the goal is to select a model that generalizes well to new data, Logistic Regression and SVM are strong candidates based on the provided accuracies.
+

@@ -19,7 +19,7 @@ This project involves building machine learning models to classify whether a pat
 ## Dataset
 The dataset used for this project is from PIMA Indian Diabetes Dataset. It contains the following attributes:
 
-- Pregnancies: Number of times pregnant
+- **Pregnancies** : Number of times pregnant
 - Glucose: Plasma glucose concentration after 2 hours in an oral glucose tolerance test
 - Blood Pressure: Diastolic blood pressure (mm Hg)
 - Skin Thickness: Triceps skinfold thickness (mm)

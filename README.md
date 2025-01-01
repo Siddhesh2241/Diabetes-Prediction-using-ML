@@ -9,6 +9,9 @@ This project aims to predict whether a patient has diabetes based on several med
 - Logistic Regression
 - Support Vector Machine (SVM)
 - Random Forest
+- Bagging Classifier
+- Boosting Classifier
+- Voting Classifier
 
 ## Project Overview
 This project involves building machine learning models to classify whether a patient is diabetic or not. The primary goal is to compare the performance of different algorithms and identify the most accurate model.
